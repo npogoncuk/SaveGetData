@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SaveGatData</string>
+    <string name="no_data">No data</string>
+    <string name="get_data">Get data</string>
+    <string name="input_data">Input data</string>
+    <string name="save_data">Save data</string>
+</resources>
