@@ -4,4 +4,6 @@
     <string name="get_data">Get data</string>
     <string name="input_data">Input data</string>
     <string name="save_data">Save data</string>
+    <string name="success">Success:%s</string>
+    <string name="saved_data">%1s %2s</string>
 </resources>

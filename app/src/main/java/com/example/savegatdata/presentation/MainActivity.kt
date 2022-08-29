@@ -2,6 +2,7 @@ package com.example.savegatdata.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.savegatdata.R
 import com.example.savegatdata.data.repository.UserRepositoryImp
 import com.example.savegatdata.data.storage.sharedpref.SharedPrefUserStorage
 import com.example.savegatdata.databinding.ActivityMainBinding
@@ -27,12 +28,12 @@ class MainActivity : AppCompatActivity() {
             saveDataButton.setOnClickListener {
                 val result =
                     saveUserNameUseCase(SaveUserNameParams(inputDataEditText.text.toString()))
-                showDataTextView.text = "Success:" + result
+                showDataTextView.text = getString(R.string.success, result.toString())
             }
 
             getDataButton.setOnClickListener {
                 val userName = getUserNameUseCase()
-                showDataTextView.text = "${userName.firstName} ${userName.lastName}"
+                showDataTextView.text = getString(R.string.saved_data, userName.firstName, userName.lastName)
             }
         }
     }
