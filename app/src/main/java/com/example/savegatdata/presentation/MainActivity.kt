@@ -3,12 +3,12 @@ package com.example.savegatdata.presentation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.savegatdata.R
-import com.example.savegatdata.data.repository.UserRepositoryImp
-import com.example.savegatdata.data.storage.sharedpref.SharedPrefUserStorage
+import com.example.data.repository.UserRepositoryImp
+import com.example.data.storage.sharedpref.SharedPrefUserStorage
 import com.example.savegatdata.databinding.ActivityMainBinding
-import com.example.savegatdata.domain.models.SaveUserNameParams
-import com.example.savegatdata.domain.usecase.GetUserNameUseCase
-import com.example.savegatdata.domain.usecase.SaveUserNameUseCase
+import com.example.domain.models.SaveUserNameParams
+import com.example.domain.usecase.GetUserNameUseCase
+import com.example.domain.usecase.SaveUserNameUseCase
 
 class MainActivity : AppCompatActivity() {
 

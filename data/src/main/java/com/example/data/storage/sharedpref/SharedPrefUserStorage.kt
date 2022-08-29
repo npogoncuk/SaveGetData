@@ -1,8 +1,8 @@
-package com.example.savegatdata.data.storage.sharedpref
+package com.example.data.storage.sharedpref
 
 import android.content.Context
-import com.example.savegatdata.data.storage.UserStorage
-import com.example.savegatdata.data.storage.models.User
+import com.example.data.storage.UserStorage
+import com.example.data.storage.models.User
 
 private const val SHARED_PREF_NAME = "shared_pref_user_name"
 private const val FIRST_NAME_KEY = "first_name_key"

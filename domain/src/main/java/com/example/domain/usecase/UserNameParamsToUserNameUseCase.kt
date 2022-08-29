@@ -1,7 +1,7 @@
-package com.example.savegatdata.domain.usecase
+package com.example.domain.usecase
 
-import com.example.savegatdata.domain.models.SaveUserNameParams
-import com.example.savegatdata.domain.models.UserName
+import com.example.domain.models.SaveUserNameParams
+import com.example.domain.models.UserName
 
 class UserNameParamsToUserNameUseCase {
     operator fun invoke(params: SaveUserNameParams): UserName {

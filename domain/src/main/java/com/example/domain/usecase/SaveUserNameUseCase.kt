@@ -1,7 +1,7 @@
-package com.example.savegatdata.domain.usecase
+package com.example.domain.usecase
 
-import com.example.savegatdata.domain.models.SaveUserNameParams
-import com.example.savegatdata.domain.repository.UserRepository
+import com.example.domain.models.SaveUserNameParams
+import com.example.domain.repository.UserRepository
 
 class SaveUserNameUseCase(private val userRepository: UserRepository) {
 

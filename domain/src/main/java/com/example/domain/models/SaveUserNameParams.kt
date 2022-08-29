@@ -1,3 +1,3 @@
-package com.example.savegatdata.domain.models
+package com.example.domain.models
 
 data class SaveUserNameParams(val name: String)
